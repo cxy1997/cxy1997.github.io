@@ -24,7 +24,7 @@
     <!-- Meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="keywords" content="Xiangyu, Chen, Xiangyu Chen, Homepage, Shanghai Jiao Tong University, UC Berkeley, Cornell University, Resume, CV, Biography, Curriculum Vitae">
+    <meta name="keywords" content="Xiangyu, Chen, Xiangyu Chen, Homepage, Shanghai Jiao Tong University, UC Berkeley, Cornell University, Waymo, NVIDIA, Resume, CV, Biography, Curriculum Vitae">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Resume/CV of Xiangyu Chen">
     <meta name="author" content="Xiangyu Chen">    
@@ -34,8 +34,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
     <!-- Plugins CSS -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-
-
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
@@ -59,7 +57,7 @@
                 
             <div class="contact-container container-block">
                 <ul class="list-unstyled contact-list">
-                    <li class="email"><i class="fas fa-envelope"></i>&nbsp;<a href="mailto:xiangyuchen@waymo.com">xiangyuchen@waymo.com</a></li>
+                    <li class="email"><i class="fas fa-envelope"></i>&nbsp;<a href="mailto:xiangyuc@nvidia.com">xiangyuc@nvidia.com</a></li>
                     <li class="resume"><i class="fas fa-file"></i>&nbsp;<a href="assets/files/CV_XiangyuChen.pdf" target="_blank">Curriculum Vitae</a></li>
                     <li class="github"><i class="fab fa-github-square"></i>&nbsp;<a href="https://github.com/cxy1997" target="_blank">GitHub</a></li>
                     <li class="gscholar"><i class="fab fa-google"></i>&nbsp;<a href="https://scholar.google.com/citations?user=xBv-PMEAAAAJ" target="_blank">Google Scholar</a></li>
@@ -72,9 +70,9 @@
             <section class="section biography-section" id="Biography">
                 <h2 class="section-title"><i class="fa fa-user"></i>Biography</h2>
                 <div class="summary">
-                    <p>I work on semantic foundation models at <a href="https://waymo.com/">Waymo Perception</a>. I received my Ph.D. degree in Computer Science from <a href="https://www.cornell.edu/">Cornell University</a>, advised by <a href="https://www.cs.cornell.edu/~kilian/">Prof. Kilian Q. Weinberger</a>. Before that, I obtained my B.S. degree in Computer Science from <a href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>, advised by Prof. <a href="http://www.mvig.org/">Cewu Lu</a>. I have also spent great times at <a href="https://deepdrive.berkeley.edu/">Berkeley DeepDrive</a>, working with Prof. <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a> and Prof. <a href="http://www.yf.io/">Fisher Yu</a>.</p>
+                    <p>I work on AV foundation models in <a href="https://research.nvidia.com/labs/avg/">NVIDIA's Autonomous Vehicle Research Group</a>. I received my Ph.D. degree in Computer Science from <a href="https://www.cornell.edu/">Cornell University</a>, advised by <a href="https://www.cs.cornell.edu/~kilian/">Prof. Kilian Q. Weinberger</a>. Before that, I obtained my B.S. degree in Computer Science from <a href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University</a>, advised by Prof. <a href="http://www.mvig.org/">Cewu Lu</a>. I have also spent great times at <a href="https://deepdrive.berkeley.edu/">Berkeley DeepDrive</a>, working with Prof. <a href="https://people.eecs.berkeley.edu/~trevor/">Trevor Darrell</a> and Prof. <a href="http://www.yf.io/">Fisher Yu</a>.</p>
 
-                    <p>My research interests lie in <b><i>Computer Vision</i></b>, <b><i>Machine Learning</i></b>, and their intersections in <b><i>Self Driving</i></b>.</p>
+                    <p>My research interests lie in <b><i>Computer Vision</i></b>, <b><i>Machine Learning</i></b>, and their intersections in <b><i>Autonomous Driving</i></b>.</p>
                 </div>
             </section>
             
@@ -272,148 +270,11 @@
                 </div>
                 
             </section><!--//section-->
-
-            <section class="section project-section" id="Selected Projects">
-                <h2 class="section-title"><i class="fa fa-code"></i>Selected Projects</h2>
-                
-                <!-- <div class="NotImplementedError">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;raise <i>NotImplementedError</i>
-                </div> -->
-
-                <div class="media">
-                    <span class="pull-left">
-                        <img class="profile" src="assets/images/torcs_seg_demo.gif" alt="" height="150" width="200" />
-                    </span>
-                    <div class="media-body">
-                        <p class="cyan bold"><a href="https://github.com/ucbdrive/pyTORCS">PyTORCS for Autonomous Driving Research</a></p>
-                        <p>Implemented <b><i>semantic segmentation</i></b> for <a href="http://torcs.sourceforge.net/">TORCS</a> (The Open Racing Car Simulator) and constructed a <b><i>Python interface</i></b> as an <a href="https://gym.openai.com/">OpenAI Gym</a> environment for deep reinforcement learning and autonomous driving research.</p>
-                    </div>  
-                </div>
-
-                <!-- <div class="media">
-                    <span class="pull-left">
-                        <a href="https://www.youtube.com/watch?v=kpoGu4nZsmA" target="_blank"><img class="profile" src="assets/images/stillalive.gif" alt="" height="150" width="200" title="Portal - 'Still Alive'" /></a>
-                    </span>
-                    <div class="media-body">
-                        <p class="cyan bold"><a href="https://github.com/cxy1997/Sentiment-Analysis-with-RNN-and-CNN">Sentiment Analysis with Deep Learning</a></p>
-                        <p>Constructed a large <b><i>sentiment analysis dataset</i></b> with 48k labeled reviews and trained a <b><i>deep neural network</i></b> that parallelly leverages recurrent and convolutional architectures, which achieves 87.47% prediction accuracy on our dataset.</p>
-                    </div>  
-                </div>
-
-                <div class="media">
-                    <span class="pull-left">
-                        <img class="profile" src="assets/images/shockdrone-min.gif" alt="" height="150" width="200" />
-                    </span>
-                    <div class="media-body">
-                        <p class="cyan bold"><a href="https://github.com/cxy1997/Shock-drone">Android Shock Drone</a></p>
-                        <p>Built a real <a href="https://rainbow6.ubisoft.com/siege/en-GB/home/index.aspx">Rainbox Six Siege</a> shock drone with <b><i>live video streaming</i></b> provided by a monocular camera mounted on it, and a supporting Android App implemeted with <b><i>plenty of control mechanisms</i></b> — joystick, gesture, voice, etc.
-                    </div>  
-                </div> -->
-
-                <!-- <div class="media">
-                    <span class="pull-left">
-                        <img class="profile" src="assets/images/PollutedMNIST.png" alt="" width="200" />
-                    </span>
-                    <div class="media-body">
-                        <p><a href="https://github.com/cxy1997/MNIST-baselines">Polluted-MNIST Classification Baselines</a></p>
-                        <p>Implemented and evaluated a wide range of machine learning approaches and classification algorithms on the enhanced Polluted-MNIST dataset, and achieves 99.82% accuracy with our best model.</p>
-                    </div>  
-                </div>
-
-                <div class="media">
-                    <span class="pull-left">
-                        <img class="profile" src="assets/images/lena.png" alt="" width="200" />
-                    </span>
-                    <div class="media-body">
-                        <p><a href="https://github.com/cxy1997/Digital-Image-Processing-Algorithms">Classic Digital Image Processing Algorithms</a></p>
-                        <p>Implemented a variety of algorithms commonly used in digital image processing, including <i><b>Filtering in Spatial and Frequency Domains</b></i>, <i><b>Edge Detection</b></i>, <i><b>Image Compression</b></i>, <i><b>Morpholigical Processing</b></i>, and <i><b>Geometric Transform</b></i>.</p>
-                    </div>  
-                </div> -->
-
-            </section><!--//section-->
-            
-            <section class="section honors-and-awards-section" id="Honors & Awards">
-                <h2 class="section-title"><i class="fa fa-trophy"></i>Honors &amp; Awards</h2>
-                <div class="award">
-                    <span class="award-title"><b><i>Outstanding Winner</i></b> &amp; <b><i>Vilfredo Pareto Award</i></b>,<br><a href="https://www.comap.com/undergraduate/contests/">Interdisciplinary Contest In Modeling</a></span>
-                    <div class="time">2018</div>
-                </div>
-                <!-- <div class="award">
-                    <span class="award-title"><b><i>Second Prize</i></b>,<br><a href="http://en.mcm.edu.cn/">Contemporary Undergraduate Mathematical Contest In Modeling</a></span>
-                    <div class="time">2017</div>
-                </div> -->
-                <div class="award">
-                    <span class="award-title">
-                        <b><i>National Scholarship</i></b>
-                        <span class="award-appendix"> (Top 0.2% Nationwide)</span>
-                    </span>
-                    <div class="time">2016, 2017, 2018</div>
-                </div>
-                <!-- <div class="award">
-                    <span class="award-title">
-                        <b><i>SJTU First-Class Academic Excellence Scholarship</i></b>
-                        <span class="award-appendix"> (Top 1%)</span>
-                    </span>
-                    <div class="time">2016</div>
-                </div> -->
-                <!-- <div class="award">
-                    <span class="award-title">
-                        <b><i>SJTU Merit Student</i></b>
-                        <span class="award-appendix"> (Top 5%)</span>
-                    </span>
-                    <div class="time">2016, 2017</div>
-                </div> -->
-                <!-- <div class="award">
-                    <span class="award-title">
-                        <b><i>Yitu Technology Scholarship</i></b>
-                    </span>
-                    <div class="time">2017</div>
-                </div> -->
-            </section><!--//skills-section-->
-
-            <!-- <section class="section talks-section" id="Talks">
-                <h2 class="section-title"><i class="fa fa-newspaper"></i>Talks</h2>
-                <div class="award">
-                    <li>Learning Semantic Predictive Control Policy<i><b><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Berkeley DeepDrive Community Meeting</b></i></li>
-                    <span class="time">Oct 3, 2018</span>
-                </div>
-
-            </section> --><!--//section-->
-            
-            <!-- <section class="section teaching-section" id="Teaching">
-                <h2 class="section-title"><i class="fa fa-university"></i>Teaching</h2>
-
-                <div class="media">
-                    <span class="pull-left"><img src="assets/images/Cornell.png" width="104px" height="104px"/></span>
-                    <div class="media-body">
-                        <p><b><i>Graduate Teaching Assistant</i></b></p>
-                        <p>CS2110: <b><i>OOP and Data Structures</i></b></p>
-                        <p>Aug 2019 - May 2020 | Cornell University</p>
-                    </div>  
-                </div>
-                
-                <div class="media">
-                    <span class="pull-left"><img src="assets/images/SJTU.ico" width="104px" height="104px"/></span>
-                    <div class="media-body">
-                        <p><b><i>Undergraduate Teaching Assistant</i></b></p>
-                        <p>CS358: <b><i>Data Structure</i></b></p>
-                        <p>Sep - Dec 2016 | Shanghai Jiao Tong University</p>
-                    </div>  
-                </div>
-
-            </section> --><!--//section-->
-
-            <!-- <section class="section service-section" id="Services">
-                <h2 class="section-title"><i class="fa fa-hands-helping"></i>Services</h2>
-                
-                <li>Reviewer of <a href="https://icra2019.org/">ICRA'19</a>, <a href="http://www.roboticsconference.org/">RSS'19</a>, <a href="https://sites.google.com/view/wad2019">CVPR'19 WAD</a>, <a href="https://icra2020.org/">ICRA'20</a>, <a href="http://www.roboticsconference.org/">RSS'20</a>, <a href="https://cvpr2022.thecvf.com/">CVPR'22</a></li>
-
-            </section> --><!--//section-->
             
         </div><!--//main-body-->
 
         <div class="footer">
-            <span>&nbsp;<br />© <span class="full-year">2025</span> Xiangyu Chen</span>
+            <span>&nbsp;<br />© <span class="full-year">2026</span> Xiangyu Chen</span>
         </div>
     </div>
  
